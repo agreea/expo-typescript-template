@@ -90,14 +90,14 @@ export default App
 Add type definitions for React and React Native.
 
 ```shell
-yarn add --dev --exact @types/react @types/react-native
+yarn add --dev @types/react @types/react-native
 ```
 
 ### Add Type Definitions for Expo
 
 Besides what React Native already has, the Expo SDK comes with a lot of additional APIs for your app. Unfortunately there aren't any type definitions for these APIs, and that makes it difficult to use them correctly in TypeScript. I have started on creating these type definitions, but bare in mind that they still lack a lot of testing.
 
-Create a file `expo.d.ts` in the `src` folder and copy the content of this [`expo.d.ts`](https://raw.githubusercontent.com/janaagaard75/expo-sdk-with-type-definitions/master/expo.d.ts) to it.
+Create a file `expo.d.ts` in the `src` folder and copy the content of this [`expo.d.ts`](https://raw.githubusercontent.com/janaagaard75/expo-and-typescript/master/src/expo.d.ts) to it.
 
 ### Reloading the app
 Sources online report that TS + Expo's hot reloading is less reliable than Expo with plain JS. Hot reloading _should_ work with TS if you open a terminal tab and run `tsc -w` in the root directory of the project.
