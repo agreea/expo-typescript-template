@@ -1,4 +1,8 @@
-# Demo React Native x Expo x Typescript Project
+# Demo Expo x Typescript Project
+
+Expo allows you to quickly build and deploy React Native apps. It allows developers to lever native features, updates over the air, and handles publishing apps to the app store. The React Native team has worked with Expo to make getting a React Native app setup a breeze via [`create-react-native-app`](https://github.com/react-community/create-react-native-app).
+
+Despite all of the great power that Expo unlocks for developers, it doesn't provide an easy out-of-the-box way to develop your React Native app in Typescript. This project walks through setting up Typescript and Expo from scratch. Together, they make mobile development much faster and less bug-prone.
 
 ## Prerequisites
 1. [Install Expo and dependencies](https://docs.expo.io/versions/latest/introduction/installation.html).
